@@ -1,3 +1,10 @@
+* {
+    font-family: "Winky Rough", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 ul { 
   list-style-type: none; 
   margin: 0; 
@@ -130,6 +137,58 @@ form{
   color: white;
   border-radius: 5px;
   background-color: blue; 
+}
+
+a{
+  color: white;
+}
+a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+.footer .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.footer h1 {
+  font-family: Jm Sole;
+}
+
+.footer .buttons .first {
+  color: white;
+  border: 2px solid white;
+  padding: 12px 30px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.footer .buttons .second {
+  color: black;
+  background-color: white;
+  padding: 12px 32px;
+  border-radius: 5px;
+  font-size: 20px;
+} 
+
+.footer .buttons .first:hover {
+  background-color: white;
+  color: black;
+}
+
+.footer .buttons .second:hover {
+  border: 2px solid white;
+  color: white;
+  background-color: #8c8989;
 }
 
 
